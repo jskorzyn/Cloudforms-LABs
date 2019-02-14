@@ -76,7 +76,7 @@ In this lab we will focus on the Self Service Catalog features CloudForms provid
 
 Wiil be provided by instructor
 
-[![Lab List](https://github.com/jskorzyn/Cloudforms-LABs/common/img/guid_grabber.png)](https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn)
+[![Lab List](https://github.com/jskorzyn/Cloudforms-LABs/blob/master/common/img/guid_grabber.png)](https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn)
 
 
 1.  Lab Links:
