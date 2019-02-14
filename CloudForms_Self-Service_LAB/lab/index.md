@@ -66,6 +66,32 @@ In this lab we will focus on the Self Service Catalog features CloudForms provid
 
 ### Access the lab environment
 
+* Click on the GUID Generator Link to generate your GUID for the lab:
+
+[GIUD Generator](https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn)
+
+* Choose lab from the list: **CloudForms Self-Service LAB**
+
+* Enter LAB Activation Key
+
+Wiil be provided by instructor
+
+[![Lab List](https://github.com/jskorzyn/Cloudforms-LABs/common/img/guid_grabber.png)](https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn)
+
+
+1.  Lab Links:
+
+    | Name                      | URL                                     |
+    |--------------------------:|----------------------------------------:|
+    | RHV Administration Portal | [https://rhvm-GUID.rhpds.opentlc.com](https://rhvm-GUID.rhpds.opentlc.com) |
+    | CloudForms                | [https://cf46-GUID.rhpds.opentlc.com](https://cf46-GUID.rhpds.opentlc.com) |
+
+2. Credentials:
+
+    | Name              | User Name   | Password                     |
+    |-------------------|:-----------:|-----------------------------:|
+    | RHV Admin Portal  | admin       | r3dh4t1!                     |
+    | CloudForms        | admin       | r3dh4t1!                     |
 
 
 ## Verify Lab
