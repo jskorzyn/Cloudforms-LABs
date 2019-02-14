@@ -56,7 +56,32 @@ In this lab we will focus on he Ansible features provided by CloudForms. We will
 
 ### Access the lab environment
 
+* Click on the GUID Generator Link to generate your GUID for the lab:
 
+[GIUD Generator](https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn)
+
+* Choose lab from the list: **CloudForms with Ansible LAB**
+
+* Enter LAB Activation Key
+
+Wiil be provided by instructor
+
+[![Lab List](https://github.com/jskorzyn/Cloudforms-LABs/blob/master/common/img/guid_grabber2.png)](https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn)
+
+
+1.  Lab Links:
+
+    | Name                      | URL                                     |
+    |--------------------------:|----------------------------------------:|
+    | RHV Administration Portal | [https://rhvm-GUID.rhpds.opentlc.com](https://rhvm-GUID.rhpds.opentlc.com) |
+    | CloudForms                | [https://cf46-GUID.rhpds.opentlc.com](https://cf46-GUID.rhpds.opentlc.com) |
+
+2. Credentials:
+
+    | Name              | User Name   | Password                     |
+    |-------------------|:-----------:|-----------------------------:|
+    | RHV Admin Portal  | admin       | r3dh4t1!                     |
+    | CloudForms        | admin       | r3dh4t1!                     |
 
 ## Verify Lab
 
