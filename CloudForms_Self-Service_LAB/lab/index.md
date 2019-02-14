@@ -63,41 +63,10 @@
 
 In this lab we will focus on the Self Service Catalog features CloudForms provides. We will learn how to create Service Catalogs, add individual Items and see how end users can browse and order from the Service Catalog.
 
-For more details about CloudForms, you can have a look at the [General introduction](../../common/index.md).
 
 ### Access the lab environment
 
-- First time login, forgot login or password? Go to [https://www.opentlc.com/account](https://www.opentlc.com/account)
 
-- Your username should NOT have an *@* in it.
-
-- Partners MUST request access to RHPDS by sending an email to open-program@redhat.com.
-
-- Passwords to the services is referred as `<to_be_provided>`. Please contact GPTE you didn't get them.
-
-Log into RHDPS and order the Lab from the Service Catalog as follows:
-
-1. Log in to the [Red Hat Product Demo System](https://rhpds.redhat.com/) with your provided credentials. 
-
-    ![RHPDS](../../common/img/rhpds_login.png)
-
-1. Go to ***Services*** -> ***Catalogs***
-
-    ![Navigate to Service catalogs](../../common/img/rhpds-navigate-to-service-catalog.png)
-
-1. Under ***All Services*** -> ***Red Hat Summit 2018***, select ***Building a Self-Service Portal with CF***
-
-    ![Summit Service Catalog](../../common/img/rhpds-summit-catalog.png)
-
-1. On the right pane, click ***Order***
-
-    ![Order Ansible Lab](../../common/img/rhpds-self-service.png)
-
-1. Please, read carefully all of the information on the resulting page, check the box to confirm you understood the runtime warning message, and then click *Submit*.
-
-:warning: ***WARNING*** It takes about 20 ~ 25 minutes for the demo to load completely and become accessible. Wait for the full demo to load, even if some of its systems are marked "Up.". Watch for an email with information about how to access your demo environment. Make note of the email's contents: a list of hostnames, IP addresses, and your GUID. Whenever you see <GUID> in the demo instructions, replace it with the GUID provided in the email. You can get real-time updates and status of your demo environment at [https://www.opentlc.com/rhpds-status](https://www.opentlc.com/rhpds-status).
-
-:heavy_check_mark: ***NOTE*** Be mindful of the runtime of your demo environment! It may take several hours to complete the demo, so you may need to extend the runtime. This is especially important in later steps when you are building virtual machines. For information on how to extend runtime and lifetime, see https://www.opentlc.com/lifecycle.
 
 ## Verify Lab
 
@@ -224,7 +193,7 @@ Let's finally check the OpenShift Provider:
 
     ![OpenShift Provider Summary View](../../common/img/openshift-provider-summary-view.png)
 
-    Click the little arrow to reload the page. 
+    Click the little arrow to reload the page.
 
     ![provider page reload](../../common/img/provider-reload.png)
 
@@ -816,7 +785,7 @@ In the following step we create a Service Catalog Item which will execute an Ans
 
     ***Variables & Default Values***: add one new entry with:
 
-    Since a Playbook can have multiple variables, you can add multiple lines. 
+    Since a Playbook can have multiple variables, you can add multiple lines.
 
     ***Variable:*** package_name
 

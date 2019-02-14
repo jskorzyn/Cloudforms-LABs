@@ -53,41 +53,10 @@
 
 In this lab we will focus on he Ansible features provided by CloudForms. We will setup the embedded Ansible role, create Service Catalog Items for Ansible Playbooks, and demonstrate how the CloudForms UI can be exteded with custom menus and buttons.
 
-For more details about CloudForms, you can have a look at the [General introduction](../../common/index.md).
 
 ### Access the lab environment
 
-- First time login, forgot login or password? Go to [https://www.opentlc.com/account](https://www.opentlc.com/account)
 
-- Your username should NOT have an *@* in it.
-
-- Partners MUST request access to RHPDS by sending an email to open-program@redhat.com.
-
-- Passwords to the services is referred as `<to_be_provided>`. Please contact GPTE you didn't get them.
-
-Log into RHDPS and order the Lab from the Service Catalog as follows:
-
-1. Log in to the [Red Hat Product Demo System](https://rhpds.redhat.com/) with your provided credentials. 
-
-    ![RHPDS](../../common/img/rhpds_login.png)
-
-1. Go to ***Services*** -> ***Catalogs***
-
-    ![Navigate to Service catalogs](../../common/img/rhpds-navigate-to-service-catalog.png)
-
-1. Under ***All Services*** -> ***Red Hat Summit 2018***, select ***CloudForms with Ansible Better together!***
-
-    ![Summit Service Catalog](../../common/img/rhpds-summit-catalog.png)
-
-1. On the right pane, click ***Order***
-
-    ![Order Ansible Lab](../../common/img/rhpds-ansible.png)
-
-1. Please, read carefully all of the information on the resulting page, check the box to confirm you understood the runtime warning message, and then click *Submit*.
-
-:warning: ***WARNING*** It takes about 20 ~ 25 minutes for the demo to load completely and become accessible. Wait for the full demo to load, even if some of its systems are marked "Up.". Watch for an email with information about how to access your demo environment. Make note of the email's contents: a list of hostnames, IP addresses, and your GUID. Whenever you see <GUID> in the demo instructions, replace it with the GUID provided in the email. You can get real-time updates and status of your demo environment at [https://www.opentlc.com/rhpds-status](https://www.opentlc.com/rhpds-status).
-
-:heavy_check_mark: ***NOTE*** Be mindful of the runtime of your demo environment! It may take several hours to complete the demo, so you may need to extend the runtime. This is especially important in later steps when you are building virtual machines. For information on how to extend runtime and lifetime, see https://www.opentlc.com/lifecycle.
 
 ## Verify Lab
 
@@ -208,7 +177,7 @@ Let's finally check the OpenShift Provider:
 
     ![OpenShift Provider Summary View](../../common/img/openshift-provider-summary-view.png)
 
-    Click the little arrow to reload the page. 
+    Click the little arrow to reload the page.
 
     ![provider page reload](../../common/img/provider-reload.png)
 
@@ -500,7 +469,7 @@ In the following step we create a Service Catalog Item which will execute an Ans
 
     ***Variables & Default Values***: add one new entry with:
 
-    Since a Playbook can have multiple variables, you can add multiple lines. 
+    Since a Playbook can have multiple variables, you can add multiple lines.
 
     ***Variable:*** package_name
 
@@ -1087,9 +1056,9 @@ We want end users to able to run certain remote commands by themselves. First we
 
 #### Service Dialog
 
-Based on your work with "Install Package" Service Dialog, you should know what is needed to create a new Service Dialog for this use case. 
+Based on your work with "Install Package" Service Dialog, you should know what is needed to create a new Service Dialog for this use case.
 
-Start with a simple copy of your working example. Add a text box to ask the user for the command. It is important that you set the name for the text element correctly. 
+Start with a simple copy of your working example. Add a text box to ask the user for the command. It is important that you set the name for the text element correctly.
 
 :warning: ***WARNING*** Make sure the text box name is called "param_command" - because "command" is the name of the extra variable in the Ansible Playbook. If you chose a different name, the Playbook will use the default command, which is "echo hello world".
 
